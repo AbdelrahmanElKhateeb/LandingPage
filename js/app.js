@@ -47,7 +47,8 @@ let ActivateSection = function(){
 
         //Remove Activation : removing activation by removing "your-active-class" from class list
         section.classList.remove('your-active-class');
-        section.style.cssText = "background-color: linear-gradient(0deg, rgba(255,255,255,.1) 0%, rgba(255,255,255,.2) 100%)";
+        //this style effect returns background color back to it's original
+        section.style.cssText = "background-color: linear-gradient(0deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.2) 100%)";
 
 
         //Activate Section : if the smallest rectangle that we got is between these values, then we activate the section by adding "your-active-class" to the section's classlist and change the background color of the section
