@@ -5,8 +5,7 @@
 - [Project Title](#project-title)
 - [Table of contents](#table-of-contents)
 - [Usage](#usage)
-- [Contribute](#contribute)
-    - [Sponsor](#sponsor)
+- [Sponsor](#sponsor)
 - [License](#license)
 - [Footer](#footer)
 
