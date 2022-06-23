@@ -1,5 +1,5 @@
 # Project Title
-Landing Page
+Professional Front-End Web development Nanodegree Program Project : Landing Page
 
 ## Table of Contents
 
