@@ -2,12 +2,42 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+- [Project Title](#project-title)
+- [Table of contents](#table-of-contents)
+- [Usage](#usage)
+- [Contribute](#contribute)
+    - [Sponsor](#sponsor)
+- [License](#license)
+- [Footer](#footer)
 
-## Instructions
+## Description
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+[(Back to top)](#table-of-contents)
 
-To get started, open `js/app.js` and start building out the app's functionality
+A simple responsive landing page project that focuses on utilizing javascript in order to create a dynamic navigation bar that automatically adds a new navigation bar with each added section to the html content.
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+It features a responsive design, a navigation bar that dynamically adds sections upon adding them to the html, highlighting the sections that the user is currently on and automatic scrolling upon clicking on the navigation bar section.
+
+
+## Usage
+
+[(Back to top)](#table-of-contents)
+
+After installing/cloning the files from git, simply drag the index.html to a web browser of your choice. In order to test the navigation bar, simply open the index.html file in a text editor, copy one of the sections and paste it after the last existing section, change the number of the section in all 3 positions, save the file and refresh the page, you will find the navigation bar to have automatically added the new section to it. Upon scrolling up and down, you will find that the sections that you scroll to or click on the sections from the navbar will cause the section to change its background color and return back to normal once you leave that section and go to a another one, lastly clicking on any of the navigation bar sections will automatically scroll to that said section.
+
+
+## License
+
+[(Back to top)](#table-of-contents)
+
+GNU General Public License version 3
+
+
+## Sponsor
+
+[(Back to top)](#table-of-contents)
+
+Udacity and The Egypt FWD Initiative by The Ministry of Communications and Information Technology
+
+## Footer
+[(Back to top)](#table-of-contents)
