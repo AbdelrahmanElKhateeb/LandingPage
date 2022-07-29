@@ -15,11 +15,9 @@ function newNavItems(){
 
     for(section of sections){
 
-        //secName and secID : get the section name and id respectively from each section
-        secName = section.dataset.nav;
-        secID = section.id;
+        //populating the nav string with the html line that has the href for the section id and the section name
 
-        nav = nav + `<li><a class="menu__link" href="#${secID}">${secName}</a></li>`;
+        nav = nav + `<li><a class="menu__link" href="#${section.id}">${section.dataset.nav}</a></li>`;
             
         }
 
@@ -47,7 +45,6 @@ let ActivateSection = function(){
 
         //Remove Activation : removing activation by removing "your-active-class" from class list
         section.classList.remove('your-active-class');
-        //this style effect returns background color back to it's original
         section.style.cssText = "background-color: linear-gradient(0deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.2) 100%)";
 
 
