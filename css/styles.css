@@ -23,13 +23,13 @@ body {
 h1 {
     font-family: 'Fira Sans', sans-serif;
     font-size: 3em;
-    margin: 2em 1rem;
+    margin: 0em 1rem;
 }
 
 @media only screen and (min-width: 35em){
     h1 {
         font-size: 7em;
-        margin: 2em 4rem 1em;
+        margin: 0em 4rem 1em;
     }
 }
 
@@ -38,12 +38,46 @@ h2 {
     font-family: 'Oxygen', Sans-Serif;
     font-size: 3em;
     color: #fff;
+    padding-top: 10px;
 }
 
 p {
     line-height: 1.6em;
     color: #eee;
 }
+
+
+@media (max-width: 656px) {
+    p {
+        font-size: 15px;
+    }
+  }
+
+@media (min-width: 389px) and (max-width: 485px) {
+    p {
+        font-size: 14px;
+    }
+  }
+@media (max-width: 380px) {
+    p {
+        font-size: 11.5px;
+    }
+  }
+/* ---- Layout Rules ---- */
+main {
+    margin: 10vh 1em 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.main__hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
 
 /* ---- Layout Rules ---- */
 main {
@@ -65,13 +99,17 @@ section {
 
 /* Navigation Styles*/
 .navbar__menu ul {
-    padding-left: 0;
-    margin: 0;
-    text-align: right;
+    margin: 0px 0px 0px -80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .navbar__menu li {
     display: inline-block;
+    position: relative;
 }
 
 .navbar__menu .menu__link {
@@ -88,10 +126,17 @@ section {
     transition: ease 0.3s all;
 }
 
+.active_link {
+    background: rgba(240, 54, 54, 0.692);
+    color: rgb(255, 255, 255);
+    transition: ease 0.3s all;
+}
+
 /* Header Styles */
 .page__header {
     background: #fff;
     position: fixed;
+    
     top: 0;
     width: 100%;
     z-index: 5;
